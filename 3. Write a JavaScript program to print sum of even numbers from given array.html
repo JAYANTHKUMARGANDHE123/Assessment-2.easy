@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>3. Write a JavaScript program to print sum of even numbers from given array</p>
+    <script>
+        let arr=[7,9,8,12,10,25];
+        sum=0;
+        arr.forEach((i)=>{ // 7 9 8 12 10 25
+            if(i%2==0){ // f f t t  t f
+           sum+=i;// 8 20 30
+        }})
+        document.write(`sum of even numbers in the array=${sum}`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>8. Write a JavaScript program to add colors to all h1 tags when the button is clicked</p> 
+
+    <h1 class="h1">Hi valli</h1>
+    <h2>how are you</h2>
+    <h1 class="h1">Hi Manoj</h1>
+    <h2>how are you</h2>
+    <h1 class="h1">Hi Jai</h1>
+    <h1 class="h1">how are you</h1>
+    <button onclick="fun()">Change Color</button>
+ <script>
+    function fun(){
+    var a=document.getElementsByClassName('h1');
+    a[0].style.color="red"
+    a[1].style.color="green"
+    a[2].style.color="blue"
+    a[3].style.color="red"
+    }
+ </script>  
+</body>
+</html>

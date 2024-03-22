@@ -1,0 +1,19 @@
+1. write a JavaScript program to print difference between biggest and smallest number of an array
+
+2. Write a JavaScript program to find the average of elements in an array of numbers.
+
+3. Write a JavaScript program to print sum of even numbers from given array
+
+4. Write a JavaScript program to count number of duplicates elements of an array
+
+5. Write a JavaScript program to create array of even numbers from give array 
+
+6. Write a JavaScript program to print running time. 
+
+7. Write a JavaScript program to print student details who got highest marks, create objects using class 
+
+8. Write a JavaScript program to add colors to all h1 tags when the button is clicked
+
+9. write a javascript program to check given number is palindrome number or not
+
+10. write a javascript program to check given string is palindrome or not .

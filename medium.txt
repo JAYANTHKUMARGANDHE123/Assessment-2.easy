@@ -1,0 +1,19 @@
+1. Write a JavaScript program to remove duplicate elements from an array.
+
+2.  Write a JavaScript program to print incremental value every time when button is clicked 
+
+3.  write a javascript program to print prime numbers between 1 to 100
+
+4. Write a JavaScript program to find the second largest element in an array.
+
+5. write a javascript program to check given number is strong number or not
+
+6. write a javascript program to remove odd numbers from given array 
+
+7. write a javascript program to count number of vowels in a string 
+
+8. Write a JavaScript program to print GCD of given two numbers
+
+9. write a javascript program to check given number is armstrong number or not
+
+10. write a javascript program to second smallest number from given array
