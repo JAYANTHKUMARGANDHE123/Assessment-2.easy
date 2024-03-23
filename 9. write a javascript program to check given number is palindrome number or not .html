@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p>9. write a javascript program to check given number is palindrome number or not.</p>   
+<script>
+    let num=prompt("Enter a number");
+    t=num;
+    rev="";
+    while(num!=0){
+        rem=num%10;
+        rev+=rem;
+        num=parseInt(num/10);
+    }
+    if(t==rev){
+        document.write(t+"is a palindrome.")
+    }
+    else{
+        document.write(t+"is not a palindrome.")
+    }
+</script> 
+</body>
+</html>
