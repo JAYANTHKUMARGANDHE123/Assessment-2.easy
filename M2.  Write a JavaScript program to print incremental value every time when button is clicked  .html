@@ -6,7 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <input type="number" placeholder="Enter a number" id="input">  -->
     <h1 id="myh1"></h1>
     <button  type="submit" onclick="Increment(el)">Incrementer</button>
     
@@ -24,8 +23,26 @@ function Increment(el){
 el=0;
 function Increment(el){
     el++;
-    document.getElementById("myh1").innerHTML="Increment= "+el;
+    document.getElementById("myh1").innerHTML="Increment= "+ el;
 }
+document.write("<br><br><br>")
 </script>
 </body>
 </html>
+
+<html>
+    <head>
+</head><body>
+<h1 id="myh"></h1>
+    <button onclick="incrementfun()">Button</button>
+    <script>
+        increment=1;
+        function incrementfun(){
+            var n=1;
+            document.getElementById("myh").innerHTML=increment;
+            increment+=n;
+        }
+       
+    </script>
+    </body>
+    </html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p>5. write a javascript program to check given number is strong number or not.</p> 
+   <script>
+    num=parseInt(prompt("Enter a number"));
+    t=num;
+    sum=0;
+    if(num!=0){
+      while(num!=0){
+        r=num%10;
+        let fact=1;
+        for(let i=1;i<=r;i++){
+            fact=fact*i;
+        }
+        sum+=fact;
+        num=parseInt(num/10);
+      }
+      if(sum==t){
+        document.write(t+"is a strong number.")
+      }
+      else{
+        document.write(t+"is not a strong number.")
+      }
+    }
+    else{
+        alert("Enter a valid number");
+        document.write("Unable to check for "+t);
+    }
+   </script>
+</body>
+</html>

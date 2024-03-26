@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>1. Write a JavaScript program to print N digits in fibonacci series </p>
+  <script>
+    num=parseInt(prompt("Enter a number"))
+    a=0;b=1;c=a+b;
+document.write(a+" "+b+" ");
+while(c<=num){
+    document.write(c+" ");
+    a=b;
+    b=c;
+    c=a+b;
+}
+  </script>  
+</body>
+</html>

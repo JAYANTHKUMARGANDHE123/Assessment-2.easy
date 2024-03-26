@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    arr=[1234,2023,1998,1880,1550,1680,2024];
+    n=[];
+    arr.forEach(el=> {
+        if(el%400==0||el%4==0&&el%100!=0){
+            n.push(el);
+        }
+    });
+    document.write(n);
+ </script>   
+</body>
+</html>

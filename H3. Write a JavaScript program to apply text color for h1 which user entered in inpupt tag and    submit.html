@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>3. Write a JavaScript program to apply text color for h1 which user entered in input tag and submit</p> 
+  <h1>Hello Jayanth</h1>
+  <h2>How are you</h2>
+  <h1>Good</h1>
+  <h1>Happy to see you</h1>
+color<input type="text" id="cl" placeholder="Enter a color"> 
+<button onclick="changeColor()">Change color</button>
+<script>
+    function changeColor(){
+        a=document.getElementsByTagName("h1");
+        color=document.getElementById("cl").value;
+        for(i=0;i<a.length;i++){
+            a[i].style.color=color;
+        }
+    }
+</script>
+</body>
+</html>
